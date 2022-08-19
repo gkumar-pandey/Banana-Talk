@@ -3,7 +3,7 @@ const translateBtn = document.querySelector(".trans-btn");
 const outputArea = document.querySelector(".output-area");
 
 const renderingTranslatedText = (text) => {
-  outputArea.append(text);
+   outputArea.innerText = text;
 };
 const fetchData = async (servelUrl) => {
   try {
@@ -13,7 +13,7 @@ const fetchData = async (servelUrl) => {
     renderingTranslatedText(trnaslatedText);
     return;
   } catch (error) {
-    return null;
+    alert('Somthing went wrong, try again some time.')
   }
 };
 

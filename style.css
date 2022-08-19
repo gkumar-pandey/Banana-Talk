@@ -43,20 +43,20 @@
   background-color: #ffd700;
   font-weight: 600;
   border-radius: 0.5rem;
-
+  cursor: pointer;
   padding: 0.5rem 1.4rem;
 }
-.about{
+.about {
   padding: 1rem;
   text-align: center;
 }
-.about h2{
-  font-size: 2.3rem;  
+.about h2 {
+  font-size: 2.3rem;
 }
-.about p{
+.about p {
   width: 50%;
   margin: auto;
-  padding: 5px ;
+  padding: 5px;
   font-size: 1.2rem;
   font-family: sans-serif;
   text-align: justify;
@@ -120,7 +120,7 @@ footer p {
   .output-area {
     width: 90%;
   }
-  .about p{
+  .about p {
     width: 100%;
   }
 }
